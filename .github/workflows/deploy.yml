@@ -1,22 +1,36 @@
 name: Build and deploy
+
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   workflow_dispatch:
+
 permissions:
-  contents: write
+  contents: write # to push to the gh-pages branch
+
 jobs:
   build-and-deploy:
+    name: Build and deploy the documentation
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: yarn
-      - run: yarn install --frozen-lockfile
-      - run: yarn build
-      - uses: peaceiris/actions-gh-pages@v4
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build
+        run: yarn build
+
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
