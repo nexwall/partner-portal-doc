@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.manual.category.Getting started": {
+    "message": "Primeiros passos",
+    "description": "The label for category Getting started in sidebar manual"
+  },
+  "sidebar.manual.category.Customers and users": {
+    "message": "Clientes e usuários",
+    "description": "The label for category Customers and users in sidebar manual"
+  },
+  "sidebar.manual.category.Fleet": {
+    "message": "Frota",
+    "description": "The label for category Fleet in sidebar manual"
+  },
+  "sidebar.manual.category.Reports and brand": {
+    "message": "Relatórios e marca",
+    "description": "The label for category Reports and brand in sidebar manual"
+  },
+  "sidebar.manual.category.Help": {
+    "message": "Ajuda",
+    "description": "The label for category Help in sidebar manual"
+  }
+}

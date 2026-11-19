@@ -1,0 +1,84 @@
+@import '@fontsource-variable/inter';
+
+:root {
+  --ifm-font-family-base: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ifm-color-primary: #4753bd;
+  --ifm-color-primary-dark: #414cab;
+  --ifm-color-primary-darker: #3e4aa2;
+  --ifm-color-primary-darkest: #333d85;
+  --ifm-color-primary-light: #5d69cc;
+  --ifm-color-primary-lighter: #6772cf;
+  --ifm-color-primary-lightest: #8590dc;
+  --ifm-code-font-size: 92%;
+  --ifm-heading-font-weight: 600;
+  --ifm-navbar-height: 3.75rem;
+  --docusaurus-highlighted-code-line-bg: rgba(71, 83, 189, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #8797f1;
+  --ifm-color-primary-dark: #6e80ee;
+  --ifm-color-primary-darker: #6175ec;
+  --ifm-color-primary-darkest: #3b52e6;
+  --ifm-color-primary-light: #a0acf4;
+  --ifm-color-primary-lighter: #adb8f6;
+  --ifm-color-primary-lightest: #d1d7fa;
+  --docusaurus-highlighted-code-line-bg: rgba(135, 151, 241, 0.2);
+}
+
+.navbar__title {
+  font-weight: 600;
+  letter-spacing: 0.22em;
+}
+
+.menu__list-item-collapsible > .menu__link--sublist-caret,
+.menu__link--sublist {
+  font-weight: 600;
+}
+
+/* admonition tables and notes stay readable */
+table {
+  display: table;
+  width: 100%;
+}
+
+/* the Nexwall logo in the navbar */
+.nx-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-right: 1.2rem;
+}
+.nx-brand:hover {
+  text-decoration: none;
+}
+.nx-brand__mark {
+  flex: none;
+  display: block;
+}
+.nx-brand__word {
+  font-weight: 800;
+  font-size: 1.15rem;
+  letter-spacing: 0.16em;
+  line-height: 1;
+  color: var(--ifm-font-color-base);
+}
+.nx-brand__word span {
+  color: hsl(216, 92%, 58%);
+}
+
+/* Download button in the top bar */
+.navbar__item.navbar-download {
+  background: var(--ifm-color-primary);
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.3rem 0.9rem;
+  margin: 0 0.3rem;
+  font-weight: 600;
+}
+.navbar__item.navbar-download:hover {
+  background: var(--ifm-color-primary-dark);
+  color: #fff;
+  text-decoration: none;
+}
+.navbar__item.navbar-download::after { display: none; }

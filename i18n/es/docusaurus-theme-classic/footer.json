@@ -1,0 +1,17 @@
+{
+  "link.title.Documentation": {
+    "message": "Documentación"
+  },
+  "link.item.label.Getting started": {
+    "message": "Primeros pasos"
+  },
+  "link.item.label.Firewall docs": {
+    "message": "Documentación del firewall"
+  },
+  "link.item.label.Website": {
+    "message": "Sitio web"
+  },
+  "link.item.label.Release notes": {
+    "message": "Notas de la versión"
+  }
+}

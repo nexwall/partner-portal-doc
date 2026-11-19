@@ -1,0 +1,71 @@
+{
+  "home.title": {
+    "message": "Documentación del Portal de Socios Nexwall"
+  },
+  "home.subtitle": {
+    "message": "Gestiona revendedores y clientes, vigila cada firewall, licencia y alerta y entrega informes de protección con tu propia marca."
+  },
+  "home.start": {
+    "message": "Primeros pasos"
+  },
+  "home.slide.prev": {
+    "message": "Captura anterior"
+  },
+  "home.slide.next": {
+    "message": "Siguiente captura"
+  },
+  "home.slide.goTo": {
+    "message": "Mostrar la captura {n}"
+  },
+  "shots.prev": {
+    "message": "Captura anterior"
+  },
+  "shots.next": {
+    "message": "Siguiente captura"
+  },
+  "home.card.start.title": {
+    "message": "Primeros pasos"
+  },
+  "home.card.start.text": {
+    "message": "Qué es el portal y cómo entrar."
+  },
+  "home.card.business.title": {
+    "message": "Clientes y usuarios"
+  },
+  "home.card.business.text": {
+    "message": "Distribuidores, revendedores, clientes y sus usuarios."
+  },
+  "home.card.fleet.title": {
+    "message": "Flota"
+  },
+  "home.card.fleet.text": {
+    "message": "Firewalls, licencias y alertas de todos tus clientes."
+  },
+  "home.card.reports.title": {
+    "message": "Informes y marca"
+  },
+  "home.card.reports.text": {
+    "message": "Informes de protección y tu propia marca."
+  },
+  "home.card.help.title": {
+    "message": "Ayuda"
+  },
+  "home.card.help.text": {
+    "message": "Resuelve los problemas más comunes."
+  },
+  "home.slide.dashboard": {
+    "message": "Toda la flota de un vistazo"
+  },
+  "home.slide.customers": {
+    "message": "Clientes, revendedores y distribuidores"
+  },
+  "home.slide.firewalls": {
+    "message": "Todos los firewalls, a un clic de su controlador"
+  },
+  "home.slide.licences": {
+    "message": "Licencias y fechas de vencimiento"
+  },
+  "home.slide.reports": {
+    "message": "Informes de protección para tus clientes"
+  }
+}
