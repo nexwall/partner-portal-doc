@@ -19,6 +19,10 @@
     "message": "Informes y marca",
     "description": "The label for category Reports and brand in sidebar manual"
   },
+  "sidebar.manual.category.Support": {
+    "message": "Soporte",
+    "description": "The label for category Support in sidebar manual"
+  },
   "sidebar.manual.category.Help": {
     "message": "Ayuda",
     "description": "The label for category Help in sidebar manual"

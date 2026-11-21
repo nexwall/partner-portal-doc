@@ -47,6 +47,12 @@
   "home.card.reports.text": {
     "message": "Relatórios de proteção e a sua própria marca."
   },
+  "home.card.support.title": {
+    "message": "Suporte"
+  },
+  "home.card.support.text": {
+    "message": "Abra chamados e acompanhe as respostas."
+  },
   "home.card.help.title": {
     "message": "Ajuda"
   },

@@ -8,6 +8,7 @@ const sidebars: SidebarsConfig = {
     category("Customers and users", ["customers/organizations", "customers/users"]),
     category("Fleet", ["fleet/firewalls", "fleet/licences", "fleet/alerts"]),
     category("Reports and brand", ["reports/protection-reports", "reports/brand", "reports/account"]),
+    category("Support", ["support/support-page"]),
     category("Help", ["help/troubleshooting"])
   ]
 }

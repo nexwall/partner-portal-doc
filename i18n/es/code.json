@@ -47,6 +47,12 @@
   "home.card.reports.text": {
     "message": "Informes de protección y tu propia marca."
   },
+  "home.card.support.title": {
+    "message": "Soporte"
+  },
+  "home.card.support.text": {
+    "message": "Abre tickets y sigue las respuestas."
+  },
   "home.card.help.title": {
     "message": "Ayuda"
   },
