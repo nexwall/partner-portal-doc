@@ -6,7 +6,7 @@ description: "Inicia sesión, elige el idioma y lee el panel."
 
 # Inicio de sesión y el panel
 
-Abre el portal e inicia sesión con la cuenta que recibiste por correo (el mensaje de bienvenida trae tu usuario y un enlace para definir la contraseña). La página de inicio de sesión puede pedir un código si activaste la autenticación en dos pasos.
+Abre el portal e inicia sesión con tu **correo** y contraseña (el mensaje de bienvenida trae el enlace para definir la contraseña). Si la olvidaste, haz clic en **Olvidé mi contraseña**: se envía un código a tu correo y eliges una nueva. La página de inicio de sesión puede pedir un código si activaste la autenticación en dos pasos.
 
 <Shots items={[{"name": "login", "caption": "La página de inicio de sesión del portal."}]} />
 

@@ -6,7 +6,7 @@ description: "Entre, escolha o idioma e leia o painel."
 
 # Entrar e o painel
 
-Abra o portal e entre com a conta que você recebeu por e-mail (a mensagem de boas-vindas traz o seu usuário e um link para definir a senha). A página de login pode pedir um código se você ativou a autenticação em dois fatores.
+Abra o portal e entre com o seu **e-mail** e a sua senha (a mensagem de boas-vindas traz o link para definir a senha). Se esqueceu, clique em **Esqueci a senha**: um código é enviado ao seu e-mail e você escolhe uma nova. A página de login pode pedir um código se você ativou a autenticação em dois fatores.
 
 <Shots items={[{"name": "login", "caption": "A página de login do portal."}]} />
 

@@ -6,7 +6,7 @@ description: "Sign in, choose your language and read the dashboard."
 
 # Signing in and the dashboard
 
-Open the portal and sign in with the account you received by e-mail (the welcome message has your user name and a link to set your password). The sign-in page may ask for a code if you enabled two-factor authentication.
+Open the portal and sign in with your **e-mail** and password (the welcome message has the link to set your password). If you forgot it, click **Forgot password**: a code is sent to your e-mail and you choose a new password. The sign-in page may ask for a code if you enabled two-factor authentication.
 
 <Shots items={[{"name": "login", "caption": "The portal sign-in page."}]} />
 
