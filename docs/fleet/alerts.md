@@ -13,3 +13,5 @@ description: "See what needs attention and choose where to be told."
 ## Notifications
 
 On the **Notifications** tab choose where you are told: **Telegram** (your own bot), **Webhook** (a signed JSON message to your system, https only) or **E-mail** (up to five addresses per channel). An alert is announced once, grouped in one message, and not repeated while it stays open. Routine events never notify.
+
+Each e-mail address has its own language: Portuguese (the default), English, Spanish or Italian. Choose it when you add the address; the alert e-mail is sent in that language.

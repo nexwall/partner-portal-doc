@@ -13,3 +13,5 @@ description: "Ve lo que requiere atención y elige dónde ser avisado."
 ## Notificaciones
 
 En la pestaña **Notificaciones** elige dónde ser avisado: **Telegram** (tu propio bot), **Webhook** (un mensaje JSON firmado a tu sistema, solo https) o **Correo** (hasta cinco direcciones por canal). Una alerta se anuncia una vez, agrupada en un mensaje, y no se repite mientras sigue abierta. Los eventos rutinarios nunca notifican.
+
+Cada dirección de e-mail tiene su propio idioma: portugués (el predeterminado), inglés, español o italiano. Elíjalo al añadir la dirección; el e-mail de alerta se envía en ese idioma.
